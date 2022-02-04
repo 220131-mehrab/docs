@@ -1,0 +1,6 @@
+#!bash
+
+#This is a script that generates a simple changelog
+#Run this with ./CHANGELOGgenerator > Filename
+
+git log --pretty="%an %as%n%s%n"
